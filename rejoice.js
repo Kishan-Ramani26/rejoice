@@ -239,6 +239,20 @@ function page4Annimation() {
 page4Annimation();
 
 
+function page5Annimation(){
+    gsap.to(".pg5video",{
+        height:`80%`,
+        width:`100%`,
+        scrollTrigger:{
+            trigger:`.pg5video`,
+            scroller:`.main`,
+            start:`30%`,
+            end:`60%`,
+            markers:true
+        }
+    })
+}
+
 gsap.from(".bottom-footer h1 span",{
     y:-100,
     opacity:0,
@@ -254,6 +268,3 @@ gsap.from(".bottom-footer h1 span",{
         scrub:2
     }
 })
-
-
-

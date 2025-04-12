@@ -408,65 +408,11 @@ body {
     align-items: center;
     justify-content: center;
 }
-
- .page5courser{
-    height: 4.5vw;
-    width: 4.5vw;
-    border: none;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.705);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    padding: 0vw 0.1vw;
-    font-family: head;    
-    font-weight: 100;
-    z-index: 9;
-    position: absolute;
-} 
-
-.video-contaner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
-    width: 80%;
-    z-index: 1;
-    /* background-color: lightgray; */
-}
-
-.page5 .video-contaner video {
-    height: 100%;
+.pg5video{
     object-fit: cover;
     object-position: center;
 }
 
-.page5 .video-contaner h4 {
-    position: absolute;
-    font-size: 3.5vw;
-    color: white;
-    font-family: content;
-    font-weight: 100;
-    letter-spacing: 0.1vw;
-}
-
-.page5 .video-contaner h5 {
-    position: absolute;
-    font-size: 1.2vw;
-    font-family: content;
-    color: white;
-    font-weight: 100;
-    letter-spacing: 0.1vw;
-    margin-top: 11vh;
-}
-
-.page5 svg {
-    position: absolute;
-    height: 40%;
-    object-fit: cover;
-    object-position: center;
-}
 
 
 /* footer css */
@@ -530,7 +476,6 @@ footer .top-footer {
     padding-left: 0.2vw;
     display: inline-block;
 }
-
 
 
 @media (max-width: 600px) {
